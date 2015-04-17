@@ -1,7 +1,7 @@
 ##CodeBook
 ###Getting and Cleaning Data Course Project
 
-Description of Variables, Data files and the working of the script `run_analysis.R.`
+Description of Variables, Data files and the working of the script `run_analysis.R`
 
 ###Variables in output file(s)
 
@@ -35,7 +35,7 @@ Activity Labels - `activity_label_file.txt`<br>
 
 4. Combine (`rbind`) test data and train data together
 
-5. Get Column Names list of features with mean() and std() in their names (`grep`)
+5. Get Column Names list of features with “mean()” and “std()” in their names (`grep`)
 
 6. Combine Column Names list with response name
 
@@ -48,7 +48,7 @@ Activity Labels - `activity_label_file.txt`<br>
 
 10. Calculate means using `sapply`
 
-11. Transpose Matrix, add activity\_label and subject\_no. columns
+11. Transpose Matrix, add “activity\_label” and “subject\_no.” columns
 
-12. Tidy up data and Write data file of mean and std columns when grouped by activity and subject<br>
+12. Tidy up data and Write data file of “means” when grouped by activity and subject<br>
 `output_means_by_activity_subject.txt`
