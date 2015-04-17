@@ -1,4 +1,4 @@
-setwd("../../..//Coursera/Data Science Specialization - John Hopkins University/Getting and Cleaning Data/R/Quiz_1/")
+#setwd("../../..//Coursera/Data Science Specialization - John Hopkins University/Getting and Cleaning Data/R/Quiz_1/")
 
 library("XML")
 library("xlsx")
