@@ -7,7 +7,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
    `unzip "UCI HAR Dataset.zip”`
 
 3. Rename the data folder to UCI\_HAR\_Dataset
-   `mv UCI HAR Dataset UCI_HAR_Dataset`
+   `mv "UCI HAR Dataset" UCI_HAR_Dataset`
 
 4. In R console use `setwd()` to change directory to the one with `run_analysis.R`
 
