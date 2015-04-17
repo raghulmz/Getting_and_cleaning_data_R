@@ -3,10 +3,10 @@
 1. Download data from the following URL
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-2. Extract the .zip and place it in the same directory as `run_analysis.R`
+2. Extract the .zip and place it in the same directory as `run_analysis.R`<br>
    `unzip "UCI HAR Dataset.zip”`
 
-3. Rename the data folder to UCI\_HAR\_Dataset
+3. Rename the data folder to UCI\_HAR\_Dataset<br>
    `mv "UCI HAR Dataset" UCI_HAR_Dataset`
 
 4. In R console use `setwd()` to change directory to the one with `run_analysis.R`
