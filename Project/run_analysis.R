@@ -9,7 +9,7 @@ test_subject_file= "./UCI_HAR_Dataset/test/subject_test.txt"
 features_file= "./UCI_HAR_Dataset/features.txt"
 activity_label_file= "./UCI_HAR_Dataset/activity_labels.txt"
 
-output_means_extracted = "./output_means_extracted.txt"
+output_means_extracted = "./output_means_by_activity_subject.txt"
 output_mean_std_extracted = "output_mean_std_extracted.txt"
 
 #Read data
