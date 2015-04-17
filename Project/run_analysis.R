@@ -10,6 +10,7 @@ features_file= "./UCI_HAR_Dataset/features.txt"
 activity_label_file= "./UCI_HAR_Dataset/activity_labels.txt"
 
 output_means_extracted = "./output_means_extracted.txt"
+output_mean_std_extracted = "output_mean_std_extracted.txt"
 
 #Read data
 X_train<-read.table(train_X_file)
@@ -60,6 +61,10 @@ data_extract<-data[,extract_names]
 #Use descriptive activity names to name the activities in the data set
 
 data_extract<-merge(activity_label, data_extract, by.x = "activity_no.", by.y = "activity_no.",)
+
+#Write data file of extracted data (Containing only mean and std columns)
+
+write.table(file= output_mean_std_extracted, x = data_extract, row.names = F)
 
 #Split data by activity and further by subject
 data_extract_split<-split(data_extract,list(data_extract$activity_label,data_extract$subject_no.))
