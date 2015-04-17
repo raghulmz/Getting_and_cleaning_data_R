@@ -20,7 +20,7 @@ Description of Variables, Data files and the working of the script `run_analysis
 ###Output files
 
 * **Step 2 Output**<br>
-`output_mean_std_extracted.txt` - Data extract of mean and std columns
+`output_mean_std_extracted.txt` - Data extract of mean and standard deviation columns
 
 * **Step 5 Output**<br> 
 `output_means_extracted.txt` -Column Means when grouped by activity and subject
@@ -48,7 +48,7 @@ Activity Labels - `activity_label_file.txt`<br>
 
 7. Add descriptive activity labels.
 
-8. Write data file of extracted data (***mean*** and ***std*** columns)<br>
+8. Write data file of extracted data (***mean*** and ***standard deviation*** columns)<br>
 `output_means_extracted.txt`
 
 9. Group and split data by ***"activity"*** and by ***"subject"***
